@@ -4,6 +4,7 @@ import { Contact } from './pages/Contact';
 import { Navbar } from './components/Navbar';
 import { Footerr } from './components/Footer';
 import { Upload } from './pages/Upload';
+import { AdminContacts } from './pages/AdminContacts';
 const App=()=>{
     return(
       
@@ -13,6 +14,7 @@ const App=()=>{
             <Route  path="/" element={<Home/>}/>
             <Route  path="/contact" element={<Contact/>}/>
             <Route  path="/setData" element={<Upload/>}/>
+            <Route  path="/getData/contact" element={<AdminContacts/>}/>
         </Routes>
         <Footerr/>
       </BrowserRouter>

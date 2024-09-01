@@ -37,10 +37,9 @@ export const Footerr=()=>{
         <div class="col">
             <h4>About</h4>
             <Link to="#">About Us</Link>
-            <Link to="#">Delivery Information</Link>
             <Link to="#">Privacy Policy</Link>
             <Link to="#">Terms & Conditions</Link>
-            <Link to="#">Contact Us</Link>
+            <Link to="/contact">Contact Us</Link>
         </div>
        </footer>
         </>

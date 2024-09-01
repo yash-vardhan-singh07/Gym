@@ -395,3 +395,173 @@ footer a{
 }
 
 
+#contact-header{
+    background-image: url("/img/banner/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    width: 100%;
+}
+#contact-header h2,
+#contact-header p{
+    color: #e2e9e1;
+    padding-right: 600px;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 12px 0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid;
+    color: #e1e1e1;
+}
+#form-details form button{
+  background-color: #088178;
+  color: #fff;
+}
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    width: 72px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+/* Style for the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    margin: 20px 0; /* Adds margin to the top and bottom of the table */
+}
+
+/* Style for table headers */
+th {
+    background-color: #4CAF50; /* Green background color for the header */
+    color: white; /* White text color for header */
+    padding: 12px; /* Padding inside header cells */
+    text-align: left; /* Aligns text to the left inside header cells */
+    border-bottom: 2px solid #ddd; /* Bottom border for header cells */
+}
+
+/* Style for table data cells */
+td {
+    padding: 12px; /* Padding inside data cells */
+    border-bottom: 1px solid #ddd; /* Bottom border for data cells */
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* Light gray background on row hover */
+}
+
+/* Optional: Style for table borders */
+table, th, td {
+    border: 1px solid #ddd; /* Light gray border for table, headers, and data cells */
+}
+
+
+
+

@@ -1,6 +1,6 @@
 const express = require('express');
 const userRouter = express.Router();
-const{upload, videos}=require('../controller/video');
+const{upload, videos ,getAllContacts,deleteContact,contactUs}=require('../controller/video');
 
 
 
@@ -13,6 +13,23 @@ userRouter
 userRouter
 .route('/getData')
 .get(videos)
+
+
+userRouter
+.route('/contact')
+.post(contactUs)
+
+
+userRouter
+.route('/getData/contact')
+.get(getAllContacts)
+
+userRouter
+.route('/getData/contact/:id')
+.delete(deleteContact)
+
+
+
 
 
 
