@@ -93,7 +93,7 @@ p{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    color: darkslategrey;
+    color: rgb(89, 89, 89);
     transition: 0.3s ease;
 }
 
@@ -288,6 +288,7 @@ p{
     width: 100%;
     background-color: #000;
 }
+
 #home-header h2{
     width: 142%;
     color: white;
@@ -368,7 +369,7 @@ footer a{
     /* background-image: url("img/banner/light.jpg"); */
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: #041e42;
+    background-color: #3c3c3c;
     height: 22vh;
     padding: 4vh 25px;
 }

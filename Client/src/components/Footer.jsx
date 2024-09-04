@@ -5,7 +5,7 @@ export const Footerr=()=>{
         
         <>
 
-<section id="newsletter" class="section-m1 section-p1">
+<section id="newsletter">
             <div class="newstext">
                 <h4>Signup for Newsletters</h4>
                 <p>Get E-mail updates about our latest packages <span>special offers</span></p>
