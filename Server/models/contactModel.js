@@ -14,7 +14,7 @@ const ReachSchema=new mongoose.Schema({
         required:[true,'Name is required'],
 
     },
-    email:{
+    email:{ 
         type:String,
         required:true,
         validate:function(){
